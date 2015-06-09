@@ -1,0 +1,44 @@
+{
+  "name": "rumold",
+  "version": "1.0.0",
+  "description": "fast and simple mbtiles server",
+  "main": "dist/index.js",
+  "analyze": true,
+  "license": "BSD-3-Clause",
+  "preferGlobal": true,
+  "author": "MyStand",
+  "contributors": [{
+    "name": "Stepan Kuzmin",
+    "email": "to.stepan.kuzmin@gmail.com"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mystand/rumold.git"
+  },
+  "scripts": {
+    "start": "./bin/rumold",
+    "build": "coffee --compile --bare --no-header --output dist src/*.coffee",
+    "prepublish": "coffee --compile --bare --no-header --output dist src/*.coffee",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "rumold": "./bin/rumold"
+  },
+  "keywords": [
+    "tiles server",
+    "mbtiles server",
+    "vector tiles server"
+  ],
+  "dependencies": {
+    "argparse": "1.0.2",
+    "async": "1.2.1",
+    "cachecache": "1.0.1",
+    "express": "4.12.4",
+    "mbtiles": "0.8.0",
+    "npid": "0.4.0",
+    "tilelive": "5.7.1",
+    "tilelive-blend": "0.1.1",
+    "tilelive-merge": "1.0.0",
+    "underscore": "1.8.3"
+  }
+}

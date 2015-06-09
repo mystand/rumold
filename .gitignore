@@ -1,0 +1,9 @@
+dist
+.idea
+*.log
+*.pid
+*.socket
+.DS_Store
+example
+node_modules
+npm-debug.log
