@@ -1,7 +1,7 @@
 ArgumentParser = require('argparse').ArgumentParser
 
 parser = new ArgumentParser
-  version: '1.0.0',
+  version: '1.0.1',
   addHelp: true,
   description: 'fast and simple mbtiles server'
 

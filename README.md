@@ -21,7 +21,7 @@ Positional arguments:
 Optional arguments:
   -h, --help           Show this help message and exit.
   -v, --version        Show programs version number and exit.
-  --allow-origin       Set response access control headers to allow origin 
+  --allow-origin       Set response access control headers to allow origin
                        (default false)
   --pid PID            PID file
   --port PORT          Port (default 8888)
@@ -43,6 +43,14 @@ cd rumold
 npm install
 npm run build
 ```
+
+### Example
+
+```shell
+rumold --allow-origin --tile-url http://localhost:8888 some.mbtiles
+```
+
+You can access tilejson endpoint on http://localhost:8888/index.json and get tiles on http://localhost:8888/{z}/{x}/{y}.{format} corresponding urls.
 
 ### Help
 

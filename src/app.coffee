@@ -33,7 +33,7 @@ app.use (request, response, next) ->
   console.log "#{remoteAddress} GET #{url}"
   next()
 
-app.get '/source.tilejson', (request, response) ->
+app.get '/index.json', (request, response) ->
   metadata = app.get('metadata')
   response.send metadata
 
