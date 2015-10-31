@@ -50,10 +50,10 @@ npm run build
 rumold --allow-origin --tile-url http://localhost:8888 some.mbtiles
 ```
 
-You can access tilejson endpoint on http://localhost:8888/index.json and get tiles on http://localhost:8888/{z}/{x}/{y}.{format} corresponding urls.
+You can access tilejson endpoint on [http://localhost:8888/index.json]() and get tiles on [http://localhost:8888/{z}/{x}/{y}.{format}]() corresponding urls.
 
 ### Help
 
 ```shell
-./bin/rumold -h
+rumold -h
 ```
