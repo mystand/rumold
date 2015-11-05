@@ -7,16 +7,18 @@
   "license": "BSD-3-Clause",
   "preferGlobal": true,
   "author": "MyStand",
-  "contributors": [{
-    "name": "Stepan Kuzmin",
-    "email": "to.stepan.kuzmin@gmail.com"
-  }],
+  "contributors": [
+    {
+      "name": "Stepan Kuzmin",
+      "email": "to.stepan.kuzmin@gmail.com"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/mystand/rumold.git"
   },
   "engines": {
-    "node" : ">=0.10.0 <0.11.0"
+    "node": ">=0.10.0 <0.11.0"
   },
   "scripts": {
     "start": "./bin/rumold",
@@ -42,7 +44,7 @@
     "express": "4.13.3",
     "mbtiles": "0.8.2",
     "npid": "0.4.0",
-    "tilelive": "5.10.0",
+    "tilelive": "5.11.0",
     "tilelive-blend": "0.1.1",
     "tilelive-merge": "1.0.2",
     "underscore": "1.8.3"
