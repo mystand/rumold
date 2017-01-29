@@ -1,5 +1,7 @@
 # Rumold
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/stepankuzmin/rumold.svg)](https://greenkeeper.io/)
+
 Rumold is a fast and simple mbtiles server.
 
 [Rumold Mercator](http://en.wikipedia.org/wiki/Rumold_Mercator) (1545–1599) was a cartographer and the son of cartographer [Gerardus Mercator](http://en.wikipedia.org/wiki/Gerardus_Mercator).
